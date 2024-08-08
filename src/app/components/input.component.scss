@@ -1,0 +1,33 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 450px;
+    padding: 8px 12px;
+    flex-wrap: wrap;
+    label {
+        font-size: 1rem;
+        font-family: monospace;
+        line-height: 24px;
+        color: white;
+    }
+    input {
+        padding: 8px;
+        border: 2px solid gray;
+        width: 80%;
+        border-radius: 20px;
+        &.ng-invalid {
+            border-color: red;
+        }
+
+    }
+    small {
+        display: block;
+        color: white;
+        font-family: monospace;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 16px;
+        width: 100%;
+    }
+}
